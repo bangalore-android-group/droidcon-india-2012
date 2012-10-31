@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bangalore.barcamp"
+    package="org.blrdroid.droidcon2012"
     android:installLocation="auto"
     android:versionCode="2"
     android:versionName="2.0" >
@@ -14,10 +14,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.bangalore.barcamp.permission.C2D_MESSAGE"
+        android:name="org.blrdroid.droidcon2012.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.bangalore.barcamp.permission.C2D_MESSAGE" />
+    <uses-permission android:name="org.blrdroid.droidcon2012.permission.C2D_MESSAGE" />
 
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -31,7 +31,7 @@
 
     <application
         android:name=".data.BarcampBangalore"
-        android:icon="@drawable/bcb_logo"
+        android:icon="@drawable/droidcon_logo"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
@@ -71,7 +71,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="com.bangalore.barcamp" />
+                <category android:name="org.blrdroid.droidcon2012" />
             </intent-filter>
         </receiver>
 

@@ -20,8 +20,6 @@
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="grey">#eeeeee</color>
-    <color name="grey_text">#757373</color>
-    <color name="blue">#2e83f7</color>
     
     <color name="android_green">#A4C639</color>
 </resources>

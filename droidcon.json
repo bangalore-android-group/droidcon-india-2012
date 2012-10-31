@@ -1,0 +1,90 @@
+{
+	"status": "have stuff",
+	"version": 1,
+	"slots": [{
+		"type": "fixed",
+		"time": "1351827000000",
+		"startTime": "900",
+		"endTime": "1000",
+		"name": "Registration",
+		"id": 101
+	},
+	{
+		"type": "session",
+		"time": "1351830600000",
+		"startTime": "1000",
+		"endTime": "1100",
+		"name": "Session Slot 1",
+		"id": 3,
+		"sessions": [{
+			"id": 102,
+			"title": "The State of Web AND Native in 2012",
+			"description": "This will be a session based on years of experience of trying to find the right tool for my job of architecting and developing great looking apps across multiple platforms.",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/553-the-state-of-web-and-native-in-2012",
+			"time": "10:00AM - 11:00AM",
+			"location": "Audi",
+			"presenter": "James Hugman"
+		},
+		{
+			"id": 103,
+			"title": "Mobile User Experience Design - What developers usually miss",
+			"description": "This talk will give developers and designers an overview of the some the principles and best practices that make up a great user experiences. The talk would discuss the UX creation process and also mentions how to avoid some of the common mistakes that people make when they design user experiences for mobile applications .",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/504-mobile-user-experience-design-what-developers-usually-miss",
+			"time": "10:00AM - 11:00AM",
+			"location": "Hall",
+			"presenter": "Amrit Sanjeev"
+		},
+		{
+			"id": 104,
+			"title": "Android Accessory development with Beaglebone",
+			"description": "With Android 3.1, the Android platform introduced Android Open Accessory support, which allows external USB hardware (an Android USB accessory) to interact with an Android-powered device in a special accessory mode. Android USB accessories are specifically designed to attach to Android-powered devices and adhere to a simple protocol (Android accessory protocol) that allows them to detect Android-powered devices that support accessory mode. With majority of smart phones and tablets using Android today, an Android open accessory standard provides a vital link between phones,tablets and other Android powered devices, and embedded systems which are pervasive in our daily life.Android accessories can be audio docking stations, exercise machines, personal medical testing devices, weather stations, or any other external hardware device that adds to the functionality of Android. Beaglebone Android accessory kit gives you freedom to innovate and develop new accessories for Android devices. It provides an easy to use development kit that will help to take Android accessories at next level.",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/504-mobile-user-experience-design-what-developers-usually-miss",
+			"time": "10:00AM - 11:00AM",
+			"location": "Room",
+			"presenter": "Pankaj Bharadiya"
+		}]
+	},
+	{
+		"type": "session",
+		"time": "1351834200000",
+		"startTime": "1100",
+		"endTime": "1130",
+		"name": "Session Slot 2",
+		"id": 3,
+		"sessions": [{
+			"id": 105,
+			"title": "Android UI prototyping 101: What? Why? How?",
+			"description": "A lot has been said about the importance of design in applications and the very android design patterns that represent them. However, what hasn't really been emphasised enough is the way of coming up with those design ideas, converting them into functional prototypes and then seeing how they might look on a real device. All that without writing a single line of code! It doesn't matter whether you're a designer, an android developer or if you just have an app idea, you need to attend this talk to understand how to use the right tools to make your app design a reality. This talk will cover the following *What is UI prototyping? *Why is it important? *Case studies *How to go about prototyping an android design? Tools used for prototyping UI *Old school UI design tools like pen n paper, stencils etc. *Free UI design tools like Pencil etc.*Commercial UI design tools like Omnigraffe etc.*A comparison of all UI design tools, what is right for you? *Testing your prototypes on a real Android device without writing a line of code - Live demo",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/549-android-ui-prototyping-101-what-why-how",
+			"time": "11:00AM - 11:30AM",
+			"location": "Hall",
+			"presenter": "Soham Mondal"
+		}]
+	},
+	{
+		"type": "session",
+		"time": "1351913400000",
+		"startTime": "900",
+		"endTime": "1000",
+		"name": "Session Slot 1",
+		"id": 105,
+		"sessions": [{
+			"id": 201,
+			"title": "15 most popular topics I missed at Droidcon London ",
+			"description": "What's cool today in Android development and why you should be doing something about it!",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/569-15-most-popular-topics-i-missed-at-droidcon-london-cause-i-was-too-busy-organising-the-event",
+			"time": "9:00AM - 10:00AM",
+			"location": "Audi",
+			"presenter": "Thibaut Rouffineau"
+		},
+		{
+			"id": 202,
+			"title": "Microsoft Kinect and Android",
+			"description": "TMicrosoft Kinect, an accessory to XBox console provides excellent gesture recognition capabilities as well as user and environment data. These can be used to develop intuitive user applications that provide a whole new dimension to user interaction. In this tutorial, we would discuss on how we can use Microsoft Kinect and an Android device to have two players interact with each other and play a very simple but engaging game. The tutorial would also go through the challenges that are involved in real-time data transmission between the devices and how it was tackled. The objective of the game is to swat a fly. The fly movement would be controlled by the Android device by one of the players and the other player tracked by Kinect, would have to swat the flay using their hands. The points would be tracked on a time slot basis. More android devices in place, the more number of flies that can be included in the game.",
+			"permalink": "http://funnel.hasgeek.com/droidcon2012/497-microsoft-kinect-and-android",
+			"time": "9:00AM - 10:00AM",
+			"location": "Hall",
+			"presenter": "Allen Thomas Varghese"
+		}]
+	}]
+}
